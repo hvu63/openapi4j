@@ -302,6 +302,7 @@ public class Schema extends AbsExtendedRefOpenApiSchema<Schema> {
           return TYPE_INTEGER;
         case FORMAT_FLOAT:
         case FORMAT_DOUBLE:
+        case FORMAT_DECIMAL:
           return TYPE_NUMBER;
         default:
           return TYPE_STRING;

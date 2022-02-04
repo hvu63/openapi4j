@@ -183,6 +183,7 @@ class SchemaValidator extends Validator3Base<OpenApi3, Schema> {
           break;
         case FORMAT_FLOAT:
         case FORMAT_DOUBLE:
+        case FORMAT_DECIMAL:
           expectedType = TYPE_NUMBER;
           break;
         default:

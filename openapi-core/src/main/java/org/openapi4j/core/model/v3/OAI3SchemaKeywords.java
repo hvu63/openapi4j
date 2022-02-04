@@ -50,6 +50,7 @@ public final class OAI3SchemaKeywords {
   public static final String FORMAT_INT64 = "int64";
   public static final String FORMAT_FLOAT = "float";
   public static final String FORMAT_DOUBLE = "double";
+  public static final String FORMAT_DECIMAL = "decimal";
   public static final String FORMAT_BYTE = "byte";
   public static final String FORMAT_BINARY = "binary";
   public static final String FORMAT_PASSWORD = "password";

@@ -128,6 +128,35 @@
     ]
   },
   {
+    "description": "validation of decimal numbers",
+    "schema": {
+      "type" : "number",
+      "format": "decimal"
+    },
+    "tests": [
+      {
+        "description": "a valid integer decimal",
+        "data": 2560000,
+        "valid": true
+      },
+      {
+        "description": "a valid decimal",
+        "data": 2560000.9,
+        "valid": true
+      },
+      {
+        "description": "a valid negative decimal",
+        "data": -2560000.9,
+        "valid": true
+      },
+      {
+        "description": "an invalid decimal",
+        "data": "0",
+        "valid": false
+      }
+    ]
+  },
+  {
     "description": "validation of binary",
     "schema": {
       "format": "binary"
