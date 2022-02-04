@@ -55,11 +55,6 @@ public class ValidationTest {
   }
 
   @Test
-  public void formatDecimalValidator() throws Exception {
-    ValidationUtil.validate("/schema/decimal.json");
-  }
-
-  @Test
   public void itemsValidator() throws Exception {
     ValidationUtil.validate("/schema/items.json");
   }
