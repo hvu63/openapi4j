@@ -17,6 +17,9 @@ components:
     NumberDouble:
       type: number
       format: double
+    NumberDecimal:
+      type: number
+      format: decimal
 
     Int32NoType:
       format: int32
